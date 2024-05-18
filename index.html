@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chef.in</title>
+  <!-- Linking to an external CSS file for styles -->
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Header section containing the title and search bar -->
+  <header>
+    <h1>Chef.in</h1>
+    <div class="search-container">
+      <!-- Input for recipe search -->
+      <input type="text" id="searchInput" placeholder="Search for recipes..." />
+      <!-- Search button triggers searchRecipes function -->
+      <button id="searchButton">Search</button>
+    </div>
+  </header>
+  
+  <!-- Loading bar displayed during fetch operations -->
+  <div id="loadingBar" class="loading-bar"></div>
+  <!-- Container to hold the list of recipes -->
+  <div id="recipesContainer" class="container"></div>
+  <!-- Container to display detailed information of a selected recipe -->
+  <div id="recipeDetail" class="recipe-detail"></div>
+  
+  <!-- Linking to an external JavaScript file for functionality -->
+  <script src="index.js"></script>
+</body>
+</html>
